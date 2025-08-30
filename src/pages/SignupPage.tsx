@@ -50,7 +50,7 @@ const SignupPage = () => {
               </p>
             </div>
 
-            <Card className="shadow-golden border-gold/20">
+            <Card className="shadow-golden border-primary/20">
               <CardHeader className="text-center">
                 <CardTitle className="flex items-center justify-center gap-2">
                   <UserPlus className="h-5 w-5 text-primary" />

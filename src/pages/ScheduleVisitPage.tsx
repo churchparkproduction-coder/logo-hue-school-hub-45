@@ -54,7 +54,7 @@ const ScheduleVisitPage = () => {
             <div className="grid lg:grid-cols-3 gap-8">
               {/* Visit Information */}
               <div className="lg:col-span-1 space-y-6">
-                <Card className="border-gold/20">
+                <Card className="border-primary/20">
                   <CardHeader>
                     <CardTitle className="flex items-center gap-2">
                       <MapPin className="h-5 w-5 text-primary" />
@@ -91,7 +91,7 @@ const ScheduleVisitPage = () => {
                   </CardContent>
                 </Card>
 
-                <Card className="border-gold/20">
+                <Card className="border-primary/20">
                   <CardHeader>
                     <CardTitle>Contact Information</CardTitle>
                   </CardHeader>
@@ -111,7 +111,7 @@ const ScheduleVisitPage = () => {
 
               {/* Booking Form */}
               <div className="lg:col-span-2">
-                <Card className="shadow-golden border-gold/20">
+                <Card className="shadow-golden border-primary/20">
                   <CardHeader>
                     <CardTitle className="flex items-center gap-2">
                       <Calendar className="h-5 w-5 text-primary" />

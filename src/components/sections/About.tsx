@@ -50,7 +50,7 @@ const About = () => {
           <Card className="card-elegant text-center group hover:scale-105 transition-transform duration-300">
             <CardContent className="p-8">
               <div className="w-16 h-16 bg-gradient-gold rounded-full flex items-center justify-center mx-auto mb-6 group-hover:animate-golden-glow">
-                <Target className="h-8 w-8 text-white" />
+                <Target className="h-8 w-8 text-primary-foreground" />
               </div>
               <h3 className="text-xl font-bold mb-4">Our Mission</h3>
               <p className="text-muted-foreground">
@@ -64,7 +64,7 @@ const About = () => {
           <Card className="card-elegant text-center group hover:scale-105 transition-transform duration-300">
             <CardContent className="p-8">
               <div className="w-16 h-16 bg-gradient-gold rounded-full flex items-center justify-center mx-auto mb-6 group-hover:animate-golden-glow">
-                <Eye className="h-8 w-8 text-white" />
+                <Eye className="h-8 w-8 text-primary-foreground" />
               </div>
               <h3 className="text-xl font-bold mb-4">Our Vision</h3>
               <p className="text-muted-foreground">
@@ -78,7 +78,7 @@ const About = () => {
           <Card className="card-elegant text-center group hover:scale-105 transition-transform duration-300">
             <CardContent className="p-8">
               <div className="w-16 h-16 bg-gradient-gold rounded-full flex items-center justify-center mx-auto mb-6 group-hover:animate-golden-glow">
-                <Heart className="h-8 w-8 text-white" />
+                <Heart className="h-8 w-8 text-primary-foreground" />
               </div>
               <h3 className="text-xl font-bold mb-4">Our Values</h3>
               <p className="text-muted-foreground">
@@ -95,7 +95,7 @@ const About = () => {
             <Card key={index} className="card-elegant text-center group hover:shadow-golden transition-all duration-300">
               <CardContent className="p-6">
                 <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                  <value.icon className="h-6 w-6 text-white" />
+                  <value.icon className="h-6 w-6 text-primary-foreground" />
                 </div>
                 <h4 className="font-semibold mb-2">{value.title}</h4>
                 <p className="text-sm text-muted-foreground">{value.description}</p>
@@ -138,7 +138,7 @@ const About = () => {
                       </AvatarFallback>
                     </Avatar>
                     <div className="absolute inset-0 bg-black/20 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                      <span className="text-white text-xs">Admin Upload</span>
+                      <span className="text-primary-foreground text-xs">Admin Upload</span>
                     </div>
                   </div>
                 </div>
@@ -178,7 +178,7 @@ const About = () => {
                       </AvatarFallback>
                     </Avatar>
                     <div className="absolute inset-0 bg-black/20 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                      <span className="text-white text-xs">Admin Upload</span>
+                      <span className="text-primary-foreground text-xs">Admin Upload</span>
                     </div>
                   </div>
                 </div>

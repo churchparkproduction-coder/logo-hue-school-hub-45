@@ -2,6 +2,8 @@ import { Heart, Target, Eye, Star, Upload } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { SCHOOL_CONFIG, ADMIN_CONTENT } from "@/lib/config";
+import founderImage from "@/assets/founder-cropped.png";
+import principalImage from "@/assets/principal-cropped.png";
 
 const About = () => {
   const values = [
@@ -124,7 +126,7 @@ const About = () => {
                   <div className="relative group">
                     <Avatar className="w-40 h-40 border-4 border-gradient-gold">
                       <AvatarImage 
-                        src="/lovable-uploads/bffac34c-18f5-48a7-9069-2069552c513e.png" 
+                        src={founderImage} 
                         alt={`${ADMIN_CONTENT.leadership.founder.title}`} 
                         className="object-cover"
                       />
@@ -164,7 +166,7 @@ const About = () => {
                   <div className="relative group">
                     <Avatar className="w-40 h-40 border-4 border-gradient-gold">
                       <AvatarImage 
-                        src="/lovable-uploads/137e1b5a-4e54-4ebc-acf0-9b5dff748600.png" 
+                        src={principalImage} 
                         alt={`${ADMIN_CONTENT.leadership.principal.title}`} 
                         className="object-cover"
                       />
